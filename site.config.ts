@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '87a8ae846506428e9c63b3561f850e2c ',
+  rootNotionPageId: 'b0d2aae235b04875a219199e745e7d1d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'lee33on',
   github: 'Lee3on',
-  linkedin: 'shuaijie-li-838650206',
+  linkedin: 'shuaijie-li',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
