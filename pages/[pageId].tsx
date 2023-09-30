@@ -7,7 +7,6 @@ import { getSiteMap } from '@/lib/get-site-map'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 import { PageProps, Params } from '@/lib/types'
 
-import { Wrapper } from '@/components/Wrapper'
 import { Navbar } from '@/components/Navbar'
 import { ContactFooter } from '@/components/ContactFooter'
 

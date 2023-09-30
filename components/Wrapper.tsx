@@ -14,7 +14,7 @@ export const Wrapper: React.FC<types.PageProps> = (props) => {
               className="hero-content"
             >
               <h1 className="hero-title">
-                I'm Shuaijie <br />
+                I&apos;m Shuaijie <br />
                 Li.
               </h1>
               <h5 className="hero-subtitle">
@@ -77,7 +77,7 @@ export const Wrapper: React.FC<types.PageProps> = (props) => {
             >
               <h5 className="about-title">Shuaijie Li</h5>
               <p className="about-content">
-                Hi, I'm thrilled to introduce myself to you as a passionate CS
+                Hi, I&apos;m thrilled to introduce myself to you as a passionate CS
                 student with a deep appreciation for the potential of
                 technology. I began my journey into CS as a graduate student
                 at UW-Madison. <br />

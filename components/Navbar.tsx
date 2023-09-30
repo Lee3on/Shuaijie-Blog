@@ -54,6 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isIndexPage = true }) => {
         <a
           href="https://www.facebook.com/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social-icon-item w-inline-block"
         >
           <img
@@ -66,6 +67,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isIndexPage = true }) => {
         <a
           href="https://www.instagram.com/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social-icon-item w-inline-block"
         >
           <img
@@ -78,6 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isIndexPage = true }) => {
         <a
           href="https://pinterest.com/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social-icon-item w-inline-block"
         >
           <img
@@ -90,6 +93,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isIndexPage = true }) => {
         <a
           href="https://twitter.com/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social-icon-item w-inline-block"
         >
           <img

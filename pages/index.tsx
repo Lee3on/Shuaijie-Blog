@@ -1,12 +1,10 @@
 import * as React from 'react'
 
-import { NotionPage } from '@/components/NotionPage'
 import { domain } from '@/lib/config'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 
 import { Wrapper } from '@/components/Wrapper'
 import { Navbar } from '@/components/Navbar'
-import { Script } from '@/components/Script'
 
 export const getStaticProps = async () => {
   try {
