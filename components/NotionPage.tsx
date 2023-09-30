@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { useCallback, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -145,6 +146,15 @@ export const NotionPage: React.FC<types.PageProps> = ({
   error,
   pageId
 }) => {
+
+  const { isDarkMode, toggleDarkMode } = useDarkMode()
+
+  useEffect(() => {
+    if (isDarkMode) {
+      toggleDarkMode();  // toggles dark mode when the component mounts
+    }
+  }, [isDarkMode, toggleDarkMode]);
+
   const router = useRouter()
   const lite = useSearchParam('lite')
 
@@ -169,7 +179,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   // lite mode is for oembed
   const isLiteMode = lite === 'true'
 
-  const { isDarkMode } = useDarkMode()
+  //const { isDarkMode } = useDarkMode()
 
   const siteMapPageUrl = React.useMemo(() => {
     const params: any = {}
@@ -263,7 +273,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         recordMap={recordMap}
         rootPageId={site.rootNotionPageId}
         rootDomain={site.domain}
-        fullPage={!isLiteMode}
+        fullPage={true}
         previewImages={!!recordMap.preview_images}
         showCollectionViewDropdown={true}
         showTableOfContents={showTableOfContents}
