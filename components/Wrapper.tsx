@@ -147,9 +147,9 @@ export const Wrapper: React.FC<types.PageProps> = (props) => {
               <h3>Skills.</h3>
             </div>
             <p className="skill-content">
-              Software: Adobe Suite,  AutoCAD, Figma, Rhino, C4D, Unity 3D
+              Software: Adobe Suite, AutoCAD, Figma, Rhino, C4D, Unity 3D
               <br />
-              Programming: C, C++, C#, Java, JavaScript, Python, Processing,
+              Programming: C, C++, C#, Java, JavaScript, Python, Golang,
               SQL
             </p>
           </div>
