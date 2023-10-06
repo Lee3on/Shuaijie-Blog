@@ -142,19 +142,80 @@ export const Wrapper: React.FC<types.PageProps> = (props) => {
               </div>
             </div>
           </div>
+          <div className="w-layout-grid experience-grid">
+            <div
+              className="award-lists"
+            >
+              <div className="title-wrapper">
+                <h3>Work Experience.</h3>
+              </div>
+              <div className="award-item">
+                <div className="award-title-wrapper">
+                  <img
+                    src="/webclip.png"
+                    loading="lazy"
+                    alt="a"
+                    className="award-trophy"
+                  />
+                  <h6 className="award-title">
+                    <strong>Unity</strong>
+                  </h6>
+                </div>
+                <p>
+                  <em>Software Engineer Intern</em>
+                </p>
+                <ul>
+                  <li>
+                    Engaged in the server-side development of a game-based multiplayer voice and video product using <b>Golang</b>, which is based on <b>WebRTC</b> to ensure a secure and stable connection.
+                  </li>
+                  <li>
+                    Implemented <b>CI/CD</b> pipeline; orchestrated <b>Docker</b> and <b>Kubernetes</b> for multi-container deployments.
+                  </li>
+                  <li>
+                    Integrated <b>Redis</b> into an Egress service, enabling real-time voice/video streams and non-compliant content filtering.
+                  </li>
+                  <li>
+                    Participated in the server-side development of a 3D model cloud synchronization service based on the <b>ASP.NET Core</b>.
+                  </li>
+                </ul>
+              </div>
+              <div className="award-item">
+                <div className="award-title-wrapper">
+                  <img
+                    src="/webclip.png"
+                    loading="lazy"
+                    alt="a"
+                    className="award-trophy"
+                  />
+                  <h6 className="award-title">
+                    <strong>Conway Robot</strong>
+                  </h6>
+                </div>
+                <p>
+                  <em>Research and Development Intern</em>
+                </p>
+                <ul>
+                  <li>Collaborated in an interdisciplinary team to create an automatic tool for digital twin model generation using <b>Python</b>, which included vectorizing real-world maps and leveraging a GAN model for city block planning.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <div className="skills">
             <div className="title-wrapper">
               <h3>Skills.</h3>
             </div>
             <p className="skill-content">
-              Software: Adobe Suite, AutoCAD, Figma, Rhino, C4D, Unity 3D
+              Programming Languages: Java, C/C++, JavaScript, Python, Golang, C#, SQL
               <br />
-              Programming: C, C++, C#, Java, JavaScript, Python, Golang,
-              SQL
+              Frameworks: Spring Boot, ASP.NET Core, MyBatis, React, Tailwind CSS
+              <br />
+              Databases: MySQL, Redis, MangoDB
+              <br />
+              DevOps & Other Tools: AWS, Git, Docker, Kubernetes, Figma, Adobe Creative Suite, Unity 3D
             </p>
           </div>
         </div>
-      </section>
+      </section >
       <div className="wf-section">
         <div className="container w-container">
           <div className="divider" />
@@ -163,6 +224,6 @@ export const Wrapper: React.FC<types.PageProps> = (props) => {
 
       <ContactFooter />
 
-    </div>
+    </div >
   );
 }
