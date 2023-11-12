@@ -62,7 +62,7 @@ export default function NotionDomainDynamicPage(props) {
           className="wrapper"
           style={{
             marginTop: '40px',
-            maxWidth: '1000px',
+            maxWidth: '900px',
           }}>
           <NotionPage
             {...props}

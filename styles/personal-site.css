@@ -73,7 +73,7 @@ body {
   background-color: #fffbee;
   font-family: Roboto, sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.4em;
 }
 
@@ -1041,6 +1041,10 @@ figcaption {
 
   .error-404-text {
     font-size: 100px;
+  }
+
+  .wrapper {
+    max-width: 1000px;
   }
 
   .page-wrapper {
